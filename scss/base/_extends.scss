@@ -1,0 +1,9 @@
+%cabecera{
+    text-decoration: none;
+    text-align: map-get($bg-user , font-text);
+    position: relative;
+    right: 12px;
+    font-size: 50px;
+    padding: 5px 10px 10px 10px;
+    border-radius: 50px;
+}

@@ -1,0 +1,8 @@
+
+@mixin insane($width, $height, $position, $left ){
+    width: $width;
+    height: $height;
+    position: $position;
+    left: $left;
+
+}

@@ -1,0 +1,42 @@
+/**//**//**//**/
+/*Header*/
+@import '../base/mapas';
+
+.body-curso {
+    background-color: blanchedalmond;
+}
+
+
+
+header {
+    nav ul h1 {
+        /*USO EXTENDS*/
+        background-color: antiquewhite;
+       
+        color: red;
+        @media only screen and (max-width: 768px) {
+            position: relative;
+            right: 15px;
+            font-size: 25px;
+            border-radius: 50px;
+        }
+    }
+
+    .inicio {
+        text-decoration: none;
+    }
+
+
+    .prg {
+    color: red;
+    }
+
+    .prg:hover {
+        color: burlywood;
+        box-shadow: 3px 3px 30px rgba(0, 0, 0, .15)
+    }
+
+}
+/**//**//**//**/
+
+

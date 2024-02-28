@@ -1,0 +1,356 @@
+/**/
+/**/
+/**/
+/**/
+/*Section*/
+@import '../base/mapas';
+@import '../base/mixins';
+
+section {
+    .grid-container {
+        padding-top: 20px;
+        padding-right: 80px;
+        padding-left: 80px;
+        text-align: map-get($bg-user , font-text);
+        font-size: 20px;
+
+        @media only screen and (max-width: 768px) {
+            p {
+                text-align: map-get($bg-user , font-text);
+                position: relative;
+                font-size: 65%;
+                width: 300px;
+                bottom: map-get($bg-user , font-size-letras);
+                right: 65px;
+            }
+        }
+
+
+    }
+
+    .strong-sobre {
+        color: map-get($bg-user , color-letras);
+    }
+
+
+    .accordion-body {
+        background-color: rgb(251, 227, 251);
+    }
+
+
+
+    .prg {
+        font-family: 'Protest Strike', sans-serif;
+        font-size: 60px;
+        text-align: map-get($bg-user , font-text);
+
+    }
+
+    .prg:hover {
+        color: burlywood;
+        box-shadow: 3px 3px 30px rgba(0, 0, 0, .15)
+    }
+
+    .d-block {
+        width: 100%;
+        height: 800px;
+
+        @media only screen and (max-width: 768px) {
+            width: 100%;
+        }
+    }
+
+    .formato {
+        font-family: arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f8f8f8;
+    }
+
+    .class-container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 20px;
+    }
+
+    h1 {
+        text-align: map-get($bg-user , font-text);
+        color: #333;
+    }
+
+    .nivel {
+        background-color: #fff;
+        border-radius: 8px;
+        padding: 20px;
+        margin-bottom: 20px;
+    }
+
+    .nivel h2 {
+        color: #333;
+    }
+
+    .nivel p {
+        color: #666;
+    }
+
+    .nivel a.button {
+        display: block;
+        margin: 20px auto 0;
+        padding: 10px 20px;
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+        text-decoration: none;
+    }
+
+    .nivel a.button:hover {
+        background-color: #2a3036;
+    }
+
+
+    .imagen-herramienta {
+        width: 100%;
+        height: 400px;
+
+        @media only screen and (max-width: 768px) {
+            width: 100%;
+            height: 150px;
+        }
+    }
+
+
+    .clases {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 60px;
+    }
+
+    .clases:hover {
+        color: burlywood;
+        box-shadow: 3px 3px 30px rgba(0, 0, 0, .15)
+    }
+
+
+    .class {
+        background-color: #d2c6c6;
+        position: relative;
+        right: 15px;
+        font-size: 50px;
+        padding: 5px 10px 10px 10px;
+        border-radius: 25px;
+
+    }
+
+    .flecha {
+        text-align: map-get($bg-user , font-text);
+        font-size: 25px;
+
+        @media only screen and (max-width: 768px) {
+            text-align: map-get($bg-user , font-text);
+        }
+    }
+
+    .clases-2 {
+        font-size: 30px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+
+    .clases-3 {
+        font-size: 25px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+
+    .clases-4 {
+        font-size: map-get($bg-user, font-size-letras);
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+
+    .clases-5 {
+        font-size: map-get($bg-user, font-size-letras);
+        font-family: system-ui,
+            -apple-system,
+            BlinkMacSystemFont,
+            'Segoe UI',
+            Roboto,
+            Oxygen,
+            Ubuntu,
+            Cantarell,
+            'Open Sans',
+            'Helvetica Neue',
+            sans-serif;
+
+    }
+
+    .clases-6 {
+        font-size: map-get($bg-user, font-size-letras);
+        font-family: system-ui,
+            -apple-system,
+            BlinkMacSystemFont,
+            'Segoe UI',
+            Roboto,
+            Oxygen,
+            Ubuntu,
+            Cantarell,
+            'Open Sans',
+            'Helvetica Neue',
+            sans-serif;
+    }
+
+
+    .titulo {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 40px;
+
+        @media only screen and (max-width: 768px) {
+            font-size: 30px;
+        }
+    }
+
+    .historia {
+        text-align: map-get($bg-user , font-text);
+        font-size: 30px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+
+        @media only screen and (max-width: 768px) {
+            font-size: 15px;
+        }
+    }
+
+    .imagen-reunion {
+        width: 40%;
+        height: 100%;
+        @include insane(40% ,100%, none, 0% )
+    }
+    .imagen-reunion{
+        @media only screen and (max-width: 768px) {
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    .imagen-reunion2 {
+        // width: 30%;
+        // height: 100%;
+        // position: relative;
+        // left: 70%;
+        @include insane(30%,100% ,relative, 70%)
+    }
+
+    .imagen-reunion2 {
+        @media only screen and (max-width: 768px) {
+            width: 100%;
+            height: 100%;
+            position: relative;
+            left: 0%;
+        }
+    }
+
+    .descripcion {
+        width: 50%;
+        position: relative;
+        left: 45%;
+        bottom: 300px;
+        font-size: 20px;
+
+
+        @media only screen and (max-width: 768px) {
+            position: none;
+            width: 100%;
+            height: 0%;
+            left: 0%;
+            bottom: 0;
+            font-size: 15px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    }
+
+    .descripcion2 {
+        width: 50%;
+        font-size: 20px;
+        position: relative;
+        bottom: 350px;
+        left: 100px;
+
+        @media only screen and (max-width: 768px) {
+            position: none;
+            width: 100%;
+            height: 0%;
+            left: 0%;
+            bottom: 0;
+            font-size: 15px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    }
+
+
+    .class-box {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .form-content {
+        position: relative;
+        // background: linear-gradient(50deg, rgb(31, 36, 66) 50%,
+        //         rgba(40, 42, 55, 0.7));
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 50px;
+        width: 100%;
+        border-radius: 25px;
+    }
+
+    .form-content {
+        color: #0f0f0f;
+        font-size: 15px;
+        margin-bottom: 25px;
+    }
+
+    .class-send {
+        color: #000a11;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    label {
+        font-size: 17px;
+        color: #00061b;
+        margin-bottom: 10px;
+    }
+
+    input,
+    textarea {
+        padding: 17px 14px;
+        background-color: #a8a8a8;
+        border: 0;
+        font-size: 15px;
+        margin-bottom: 20px;
+        border-radius: 10px;
+    }
+
+    :focus {
+        outline: 3px solid #00060a;
+    }
+
+    button {
+        background-color: #1e92e9;
+    }
+
+    .button:hover {
+        background-color: #0c1318;
+        color: white;
+    }
+
+}
+
+/**/
+/**/
+/**/
+/**/

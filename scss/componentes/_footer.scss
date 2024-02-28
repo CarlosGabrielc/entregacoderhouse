@@ -1,0 +1,179 @@
+/**/
+/**/
+/**/
+/**/
+/*Footer*/
+@import '../base/mapas';
+@import '../base/mixins';
+
+footer {
+    div nav ul a {
+        font-size: 150px;
+        margin-left: 400px;
+
+        @media only screen and (max-width: 768px) {
+            font-size: 80px;
+            margin-left: 35px;
+
+        }
+
+    }
+
+    .styleWsp {
+        color: green;
+        cursor: pointer;
+
+    }
+
+    .styleWsp:hover {
+        color: black;
+        box-shadow: 1px 1px 1px rgba(0, 0, 0, .15);
+
+    }
+
+
+    .styleInsta {
+        color: map-get($bg-user , color-letras);
+        cursor: pointer;
+    }
+
+    .styleInsta:hover {
+        color: black;
+        box-shadow: 3px 3px 30px rgba(0, 0, 0, .15)
+    }
+
+
+    div ul p {
+        text-align: end;
+        font-size: 12px;
+        position: relative;
+        right: 10px;
+
+        a {
+            text-decoration: none;
+            color: #314652;
+        }
+    }
+
+    .interaccion {
+        font-family: arial, sans-serif;
+        text-align: center;
+        font-size: 40px;
+    }
+
+    .styleFb {
+        color: dodgerblue;
+        cursor: pointer;
+    }
+
+    .styleFb:hover {
+        color: rgb(50, 69, 80);
+        box-shadow: 1px 1px 1px rgba(0, 0, 0, .15);
+
+    }
+
+    .styleEmail {
+        color: red;
+        cursor: pointer;
+    }
+
+    .styleEmail:hover {
+        color: rgb(157, 82, 82);
+        box-shadow: 1px 1px 1px rgba(0, 0, 0, .15);
+    }
+
+    .descargas {
+        text-align: center;
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .class-descargas {
+        font-family: Arial, Helvetica, sans-serif;
+        color: #666;
+        text-align: center;
+    }
+
+    .l-zoom {
+        text-decoration: none;
+        font-size: 30px;
+    }
+
+    .strong-sobre {
+        color: red;
+    }
+
+    .class-redes {
+        margin: 0;
+        padding: 0;
+        box-sizing: content-box;
+    }
+
+    .class-flex {
+        background-color: #f1f1f1;
+        min-height: 15vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .buttons {
+        min-width: 700px;
+        display: flex;
+        justify-content: space-around;
+
+        @media only screen and (max-width: 768px) {
+            min-width: 300px;
+            display: flex;
+            justify-content: space-around;
+        }
+
+
+
+    }
+
+    .buttons a {
+        text-decoration: none;
+        font-size: 28px;
+        width: 60px;
+        height: 60px;
+        line-height: 60px;
+        text-align: center;
+        background: #314652;
+        color: #f1f1f1;
+        border-radius: 50%;
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+        transition: all .4s ease-in-out;
+
+    }
+
+    .buttons a:hover {
+        transform: scale(1.2);
+    }
+
+    .class-copyright {
+        text-align: end;
+        font-size: 12px;
+        position: relative;
+        right: 10px;
+
+    }
+
+    .ubicacion {
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .mapa {
+        width: 100%;
+        height: 500px;
+    }
+
+
+}
+
+/**/
+/**/
+/**/
+/**/

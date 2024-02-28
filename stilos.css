@@ -1,0 +1,412 @@
+body {
+
+    background: rgb:(126, 133, 75);
+    background: linear-gradient(0deg, rgba(126, 133, 75, 1) 0%, rgba(81, 100, 244, 1) 100%);
+    */
+}
+
+/* INICIO DE MI INDEX.HTML */
+
+header nav ul h1 {
+    margin-top: 30px;
+    color: yellowgreen;
+    text-align: center;
+    font-size: 50px;
+}
+
+section div h2 {
+    text-align: center;
+    font-size: 40px;
+    color: red;
+}
+
+
+
+.section h3,
+h4 {
+    background-color: rgb(181, 163, 163);
+    text-align: center;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-rows: repeat(4, 250px);
+    grid-column-gap: 0px;
+    grid-row-gap: 1px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+
+
+.niveles {
+    font-size: 30px;
+    text-align: center;
+    list-style-type: none;
+}
+
+.first-item {
+    text-align: center;
+    font-size: 35px;
+    grid-column: 1/4;
+}
+
+.second-item {
+
+    display: grid;
+    font-size: 25px;
+    grid-row: 2/4;
+
+
+}
+
+.therd-item {
+    border-style: daed;
+    display: grid;
+    font-size: 25px;
+    grid-row: 2/4;
+}
+
+.fourth-item {
+
+    display: grid;
+    border: solidwhite;
+    font-size: 25px;
+    grid-row: 2/4;
+}
+
+/* FIN DE MI INDEX.HTML  */
+
+
+
+
+
+
+/* INICO DE ACERCA-DE.HTML  */
+
+
+.titulo {
+    font-family: 'Ranga', cursive;
+    font-size: 55px;
+    text-align: center;
+}
+
+.historia {
+
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Brygada 1918', serif;
+}
+
+.imagen-reunion {
+    position: relative;
+    width: 35%;
+    left: 960px;
+
+}
+
+.descripcion {
+    position: relative;
+    width: 55%;
+    bottom: 400px;
+    left: 60px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.imagen-reunion2 {
+
+    position: relative;
+    width: 40%;
+    bottom: 300px;
+    left: 10px;
+
+}
+
+.descripcion2 {
+
+    position: relative;
+    width: 55%;
+    left: 680px;
+    bottom: 700px;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* FIN DE ACERDA-DE.HTML */
+
+
+/* INICIO DE CURSOS.HTML */
+
+
+
+.prg {
+
+    font-family: 'Protest Strike', sans-serif;
+    text-align: center;
+}
+
+.imagen-curso {
+    width: 1645px;
+    height: 650px;
+
+}
+
+.niveles {
+    position: relative;
+    bottom: 540px;
+    color: #3457D5;
+
+}
+
+.precio {
+    position: relative;
+    bottom: 538px;
+    background-color: wheat;
+}
+
+.reserva {
+    position: relative;
+    bottom: 530px;
+    text-align: center;
+    color: whitesmoke;
+    left: 750px;
+    background-color: #003153;
+    border-radius: 5%;
+    border-style: so;
+    text-decoration: none;
+}
+
+.reserva:hover {
+    background-color: white;
+    color: #003153;
+}
+
+
+.interaccion {
+
+    position: relative;
+    bottom: 451px;
+}
+
+.red {
+    position: relative;
+    bottom: 450px;
+    background-color: black;
+    display: inline-flex;
+}
+
+.red a {
+    text-decoration: none;
+    color: wheat;
+    padding: 0 10px;
+}
+
+.red a:hover {
+    background-color: white;
+    color: black;
+}
+
+/*FIN DE CUROS.HTML  */
+
+
+/* INICIO DE CONTACTO.HTML */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.form-content {
+    position: relative;
+    background: linear-gradient(50deg, rgba(40, 42, 55, 1) 50%,
+            rgba(40, 42, 55, 0.7));
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px;
+    width: 1000px;
+    border-radius: 25px;
+
+}
+
+.form-content h2 {
+    color: white;
+    font-size: 40px;
+    margin-bottom: 25px;
+
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+
+}
+
+label {
+    font-size: 17px;
+    color: #959aab;
+    margin-bottom: 10px;
+}
+
+input,
+textarea {
+    padding: 17px 14px;
+    background-color: #333646;
+    border: 0;
+    font-size: 15px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+
+}
+
+:focus {
+    outline: 1px solid #1e92e9;
+}
+
+.btn {
+    background-color: #1e92e9;
+    width: 150px;
+    align-self: flex-end;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #219bf9;
+    color: white;
+}
+
+
+
+
+.ubicacion {
+
+    color: #333646;
+
+}
+
+.mapa {
+    position: relative;
+    width: 1200px;
+    left: px;
+
+}
+
+
+
+/* FIN DE CONTACTO.HTML */
+
+
+/* INICIO DE HERRAMIENTAS.HTML */
+
+
+section img {
+    height: 737px;
+
+}
+
+
+.clases {
+    position: relative;
+    text-align: center;
+    color: #333646;
+    font-family: 'Protest Strike', sans-serif;
+}
+
+
+.clases2 {
+    position: relative;
+    width: 30%;
+    left: 590px;
+    font-family: 'Protest Strike', sans-serif;
+}
+
+.contacto {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    color: #333646;
+    font-family: 'Protest Strike', sans-serif;
+
+}
+
+
+
+.redes {
+
+    position: relative;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+
+}
+
+.redes {
+    list-style-type: none;
+
+    
+/* FIN DE HERRAMIENTAS.HTML */
+
+
+
+/* mobile */
+@media only screen and (max-width:600px) {
+
+
+
+    header nav ul h1 {
+        font-size: 38px;
+        color: yellow;
+        text-align: center;
+    }
+
+    #grid-item {
+
+        color: burlywood;
+        grid-column: 1/4;
+        font-size: 20px;
+
+
+    }
+
+    #second-item {
+
+        color: black;
+        font-size: 19px;
+        grid-row: 2/5;
+        background-color: gray;
+    }
+
+    #therd-item {
+        color: black;
+        font-size: 17px;
+        grid-row: 2/5;
+        background-color: gray;
+    }
+
+    #fourth-item {
+
+        color: black;
+        font-size: 20px;
+        grid-row: 2/5;
+        background-color: gray;
+    }
+
+
+
+
+    .form-content {
+        width: 100%;
+    }
+
+    form {
+        width: 100%;
+    }
+
+    .mapa {
+        position: relative;
+        width: 100%;
+        height: 600px;
+
+    }
+
+}
