@@ -1,0 +1,478 @@
+/**/
+/**/
+/**/
+/**/
+/*Header*/
+.body-curso {
+  background-color: blanchedalmond;
+}
+
+.logo-1 {
+  position: relative;
+  right: 1000px;
+}
+
+header nav ul h1 {
+  background-color: antiquewhite;
+  color: red;
+  border-radius: 40px;
+  text-align: center;
+  position: relative;
+  right: 15px;
+}
+@media only screen and (max-width: 768px) {
+  header nav ul h1 {
+    position: relative;
+    right: 15px;
+    font-size: 25px;
+    border-radius: 50px;
+  }
+}
+header .inicio {
+  text-decoration: none;
+}
+header .prg {
+  color: red;
+}
+header .prg:hover {
+  color: burlywood;
+  box-shadow: 3px 3px 30px rgba(0, 0, 0, 0.15);
+}
+header .titulo {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 40px;
+  text-align: center;
+  animation: teclear 3s steps(500);
+}
+@media only screen and (max-width: 768px) {
+  header .titulo {
+    font-size: 30px;
+  }
+}
+header .historia {
+  text-align: center;
+  font-size: 30px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  animation: teclear 3s steps(500);
+}
+@media only screen and (max-width: 768px) {
+  header .historia {
+    font-size: 15px;
+  }
+}
+@keyframes teclear {
+  from {
+    clip-path: polygon(0 0, 0 0, 0 100%, 0% 100%);
+  }
+  to {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+  }
+}
+
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/*Section*/
+section .grid-container {
+  padding-top: 20px;
+  padding-right: 80px;
+  padding-left: 80px;
+  text-align: center;
+  font-size: 20px;
+}
+@media only screen and (max-width: 768px) {
+  section .grid-container p {
+    text-align: center;
+    position: relative;
+    font-size: 65%;
+    width: 300px;
+    bottom: 20px;
+    right: 65px;
+  }
+}
+section .strong-sobre {
+  color: red;
+}
+section .accordion-body {
+  background-color: rgb(251, 227, 251);
+}
+section .prg {
+  font-family: "Protest Strike", sans-serif;
+  font-size: 60px;
+  text-align: center;
+}
+section .prg:hover {
+  color: burlywood;
+  box-shadow: 3px 3px 30px rgba(0, 0, 0, 0.15);
+}
+section .d-block {
+  width: 100%;
+  height: 800px;
+}
+@media only screen and (max-width: 768px) {
+  section .d-block {
+    width: 100%;
+  }
+}
+section .formato {
+  font-family: arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f8f8;
+}
+section .class-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+section h1 {
+  text-align: center;
+  color: #333;
+}
+section .nivel {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+section .nivel h2 {
+  color: #333;
+}
+section .nivel p {
+  color: #666;
+}
+section .nivel a.button {
+  display: block;
+  margin: 20px auto 0;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  text-decoration: none;
+}
+section .nivel a.button:hover {
+  background-color: #2a3036;
+}
+section .imagen-herramienta {
+  width: 100%;
+  height: 400px;
+}
+@media only screen and (max-width: 768px) {
+  section .imagen-herramienta {
+    width: 100%;
+    height: 150px;
+  }
+}
+section .clases {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 60px;
+}
+section .clases:hover {
+  color: burlywood;
+  box-shadow: 3px 3px 30px rgba(0, 0, 0, 0.15);
+}
+section .class {
+  background-color: #d2c6c6;
+  position: relative;
+  right: 15px;
+  font-size: 50px;
+  padding: 5px 10px 10px 10px;
+  border-radius: 25px;
+}
+section .flecha {
+  text-align: center;
+  font-size: 25px;
+}
+@media only screen and (max-width: 768px) {
+  section .flecha {
+    text-align: center;
+  }
+}
+section .clases-2 {
+  font-size: 30px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+section .clases-3 {
+  font-size: 25px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+section .clases-4 {
+  font-size: 20px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+section .clases-5 {
+  font-size: 20px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+section .clases-6 {
+  font-size: 20px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+section .imagen-reunion {
+  width: 40%;
+  height: 100%;
+  width: 40%;
+  height: 100%;
+  position: none;
+  left: 0%;
+}
+@media only screen and (max-width: 768px) {
+  section .imagen-reunion {
+    width: 100%;
+    height: 100%;
+  }
+}
+section .imagen-reunion2 {
+  width: 30%;
+  height: 100%;
+  position: relative;
+  left: 70%;
+}
+@media only screen and (max-width: 768px) {
+  section .imagen-reunion2 {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    left: 0%;
+  }
+}
+section .descripcion {
+  width: 50%;
+  position: relative;
+  left: 45%;
+  bottom: 300px;
+  font-size: 20px;
+}
+@media only screen and (max-width: 768px) {
+  section .descripcion {
+    position: none;
+    width: 100%;
+    height: 0%;
+    left: 0%;
+    bottom: 0;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+}
+section .descripcion2 {
+  width: 50%;
+  font-size: 20px;
+  position: relative;
+  bottom: 350px;
+  left: 100px;
+}
+@media only screen and (max-width: 768px) {
+  section .descripcion2 {
+    position: none;
+    width: 100%;
+    height: 0%;
+    left: 0%;
+    bottom: 0;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+}
+section .class-box {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+section .form-content {
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 50px;
+  width: 100%;
+  border-radius: 25px;
+}
+section .form-content {
+  color: #0f0f0f;
+  font-size: 15px;
+  margin-bottom: 25px;
+}
+section .class-send {
+  color: #000a11;
+}
+section form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+section label {
+  font-size: 17px;
+  color: #00061b;
+  margin-bottom: 10px;
+}
+section input,
+section textarea {
+  padding: 17px 14px;
+  background-color: #a8a8a8;
+  border: 0;
+  font-size: 15px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+section :focus {
+  outline: 3px solid #00060a;
+}
+section button {
+  background-color: #1e92e9;
+}
+section .button:hover {
+  background-color: #0c1318;
+  color: white;
+}
+
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/*Footer*/
+footer div nav ul a {
+  font-size: 150px;
+  margin-left: 400px;
+}
+@media only screen and (max-width: 768px) {
+  footer div nav ul a {
+    font-size: 80px;
+    margin-left: 35px;
+  }
+}
+footer .styleWsp {
+  color: green;
+  cursor: pointer;
+}
+footer .styleWsp:hover {
+  color: black;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
+}
+footer .styleInsta {
+  color: red;
+  cursor: pointer;
+}
+footer .styleInsta:hover {
+  color: black;
+  box-shadow: 3px 3px 30px rgba(0, 0, 0, 0.15);
+}
+footer div ul p {
+  text-align: end;
+  font-size: 12px;
+  position: relative;
+  right: 10px;
+}
+footer div ul p a {
+  text-decoration: none;
+  color: #314652;
+}
+footer .interaccion {
+  font-family: arial, sans-serif;
+  text-align: center;
+  font-size: 40px;
+}
+footer .styleFb {
+  color: dodgerblue;
+  cursor: pointer;
+}
+footer .styleFb:hover {
+  color: rgb(50, 69, 80);
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
+}
+footer .styleEmail {
+  color: red;
+  cursor: pointer;
+}
+footer .styleEmail:hover {
+  color: rgb(157, 82, 82);
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
+}
+footer .descargas {
+  text-align: center;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+footer .class-descargas {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #666;
+  text-align: center;
+}
+footer .l-zoom {
+  text-decoration: none;
+  font-size: 30px;
+}
+footer .strong-sobre {
+  color: red;
+}
+footer .class-redes {
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+}
+footer .class-flex {
+  background-color: #f1f1f1;
+  min-height: 15vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer .buttons {
+  min-width: 700px;
+  display: flex;
+  justify-content: space-around;
+}
+@media only screen and (max-width: 768px) {
+  footer .buttons {
+    min-width: 300px;
+    display: flex;
+    justify-content: space-around;
+  }
+}
+footer .buttons a {
+  text-decoration: none;
+  font-size: 28px;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  background: #314652;
+  color: #f1f1f1;
+  border-radius: 50%;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  transition: all 0.4s ease-in-out;
+}
+footer .buttons a:hover {
+  transform: scale(1.2);
+}
+footer .class-copyright {
+  text-align: end;
+  font-size: 12px;
+  position: relative;
+  right: 10px;
+}
+footer .ubicacion {
+  text-align: center;
+  font-size: 30px;
+}
+footer .mapa {
+  width: 100%;
+  height: 500px;
+}
+
+/**/
+/**/
+/**/
+/**/
+
+/*# sourceMappingURL=css.map */
